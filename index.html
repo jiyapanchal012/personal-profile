@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Jiya Panchal - BCA Student & Aspiring Web Developer. Personal portfolio showcasing HTML5, CSS3, Flexbox skills, learning journey, and web development projects.">
+  <meta name="author" content="Jiya Panchal">
+  <title>Jiya Panchal | Web Developer Portfolio & Personal Profile</title>
+
+  <!-- Google Fonts: DM Sans, Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================================
+       1. HEADER & NAVIGATION
+       ========================================================= -->
+  <header class="topbar">
+    <nav class="nav shell" aria-label="Main Navigation">
+      <!-- Logo / Brand Name -->
+      <a href="#home" class="brand">
+        jiya<span>.</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle (Pure HTML/CSS) -->
+      <input type="checkbox" id="mobile-menu" class="menu-toggle" aria-label="Toggle Navigation Menu">
+      <label for="mobile-menu" class="menu" aria-label="Open Menu">☰</label>
+
+      <!-- Navigation Links -->
+      <div class="navlinks" id="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Journey</a>
+        <a href="#more">Education</a>
+        <a href="#contact" class="navcta">Let's Connect</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO SECTION
+         ========================================================= -->
+    <section class="hero" id="home">
+      <div class="shell hero-flex">
+
+        <!-- Hero Introduction Text -->
+        <div class="hero-text">
+          <span class="kicker">
+            <span class="kicker-dot"></span>
+            WELCOME TO MY PORTFOLIO
+          </span>
+
+          <h1>
+            Hi, I'm <span class="accent">Jiya</span><br>
+            Panchal<span class="accent">.</span>
+          </h1>
+
+          <p class="hero-desc">
+            A curious BCA student, creative thinker, and aspiring web developer
+            passionate about turning ideas into clean, semantic, and responsive digital experiences.
+            Currently building a strong foundation in modern frontend technologies.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="button dark">Explore My Work &nbsp;&nearrow;</a>
+            <a href="#about" class="button light">Get to Know Me</a>
+          </div>
+
+          <!-- Quick Learning Status Note -->
+          <div class="hero-note-wrapper">
+            <p class="hero-note">
+              <strong>Current Learning:</strong> React.js &middot; Node.js &middot; Express.js &middot; MongoDB
+            </p>
+            <div class="badge-row">
+              <span class="badge">Surat, India</span>
+              <span class="badge">Full MERN Stack</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="visual" aria-label="Web design and developer illustration">
+          <div class="visual-frame">
+            <img src="image/img 1.webp" alt="Laptop displaying web development workspace and code" loading="eager">
+          </div>
+          <div class="tag one">Creative &amp; Curious</div>
+          <div class="tag two">Learning by Doing</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. STATS & HIGHLIGHTS BAR
+         ========================================================= -->
+    <div class="statbar">
+      <div class="shell stat-inner">
+        <div class="stat">
+          <strong>01</strong>
+          <span>Creative Mindset<br>&amp; Daily Consistency</span>
+        </div>
+        <div class="stat">
+          <strong>10+</strong>
+          <span>Practical Hands-on<br>Web Practice Projects</span>
+        </div>
+        <div class="stat">
+          <strong>100%</strong>
+          <span>Dedication to Writing<br>Clean, Semantic Code</span>
+        </div>
+        <div class="stat">
+          <strong>BCA</strong>
+          <span>Sarvajanik University<br>Academic Foundation</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================================
+         4. ABOUT ME SECTION
+         ========================================================= -->
+    <section class="section" id="about">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <span class="small-label">01 / A LITTLE ABOUT ME</span>
+            <h2>More than just<br>a profile.</h2>
+          </div>
+          <p class="section-lead">
+            Every clean design begins with genuine curiosity. Here is the student and thinker behind the code, projects,
+            and learning journey.
+          </p>
+        </div>
+
+        <div class="about-layout">
+          <!-- Story Article -->
+          <article class="about-story reveal">
+            <div>
+              <h3>Hello, nice to <span class="accent">meet you.</span></h3>
+              <p>
+                I'm <strong>Jiya Panchal</strong>, an enthusiastic student pursuing my Bachelor of Computer Applications
+                (BCA) in Surat.
+                I have a strong fascination with how simple lines of code can come together to create interactive,
+                elegant, and user-friendly websites.
+              </p>
+              <p>
+                My learning philosophy is based on <strong>steady daily progress, patience, and learning by
+                  building</strong>.
+                Instead of just watching tutorials, I believe in writing code from scratch, testing layouts, debugging
+                errors in the browser console, and understanding core fundamentals like the CSS Box Model, Flexbox, and
+                semantic HTML markup.
+              </p>
+              <p>
+                This portfolio serves as my digital workspace &mdash; a live demonstration of what I am learning in my
+                web
+                development journey, my current coursework, and where I aim to go as an aspiring full-stack developer.
+              </p>
+            </div>
+
+            <div class="quote">
+              &ldquo;Keep learning, keep creating, and never stop growing. Every big project starts with a single line
+              of clean code.&rdquo;
+            </div>
+          </article>
+
+          <!-- Quick Facts Aside -->
+          <div class="about-aside reveal">
+            <article class="snapshot">
+              <h3>Quick Facts</h3>
+
+              <div class="fact">
+                <b>Full Name</b>
+                <span>Jiya Panchal</span>
+              </div>
+
+              <div class="fact">
+                <b>Current Status</b>
+                <span>Student &amp; Web Developer</span>
+              </div>
+
+              <div class="fact">
+                <b>Degree Course</b>
+                <span>Bachelor of Computer Applications (BCA)</span>
+              </div>
+
+              <div class="fact">
+                <b>College</b>
+                <span>Sarvajanik College of Commerce and Computer Applications</span>
+              </div>
+
+              <div class="fact">
+                <b>University</b>
+                <span>Sarvajanik University, Surat</span>
+              </div>
+
+              <div class="fact">
+                <b>Location</b>
+                <span>Surat, Gujarat, India</span>
+              </div>
+
+              <div class="fact">
+                <b>Languages</b>
+                <span>English, Hindi, Gujarati</span>
+              </div>
+
+              <div class="fact">
+                <b>Primary Editor</b>
+                <span>VS Code (Emmet &amp; Live Server)</span>
+              </div>
+
+              <div class="fact">
+                <b>Current Learning</b>
+                <span>React, Node.js, Express &amp; MongoDB</span>
+              </div>
+            </article>
+
+            <!-- Personality Traits / Strengths -->
+            <div class="traits">
+              <span class="trait">Curious Mindset</span>
+              <span class="trait">Attention to Detail</span>
+              <span class="trait">Continuous Learning</span>
+              <span class="trait">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. SKILLS SECTION
+         ========================================================= -->
+    <section class="section skills" id="skills">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <span class="small-label">02 / WHAT I'M LEARNING</span>
+            <h2>Skills in progress.</h2>
+          </div>
+          <p class="section-lead">
+            Building a solid engineering foundation step-by-step with practical hands-on exercises and clean coding
+            standards.
+          </p>
+        </div>
+
+        <div class="skill-grid">
+          <!-- Skill 1: HTML5 -->
+          <article class="skill-card reveal">
+            <span class="skill-num">01 &mdash; STRUCTURE</span>
+            <h3>HTML5</h3>
+            <p>
+              Writing clean, well-structured, and accessible web pages using semantic tags
+              such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>,
+              <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code>.
+            </p>
+            <ul class="skill-checklist">
+              <li>Semantic markup &amp; SEO tags</li>
+              <li>Accessible forms &amp; validations</li>
+              <li>Clean document hierarchy</li>
+            </ul>
+            <span class="skill-pill">Semantic Markup</span>
+          </article>
+
+          <!-- Skill 2: CSS3 -->
+          <article class="skill-card reveal">
+            <span class="skill-num">02 &mdash; STYLING</span>
+            <h3>CSS3 &amp; Flexbox</h3>
+            <p>
+              Designing modern layouts using the CSS Box Model, fluid Flexbox compositions,
+              responsive breakpoints with media queries, and smooth micro-animations.
+            </p>
+            <ul class="skill-checklist">
+              <li>CSS Box Model (Margin/Padding)</li>
+              <li>Flexbox alignment &amp; distribution</li>
+              <li>Responsive cards &amp; media queries</li>
+            </ul>
+            <span class="skill-pill">Flexbox &amp; Responsive</span>
+          </article>
+
+          <!-- Skill 3: JavaScript -->
+          <article class="skill-card reveal">
+            <span class="skill-num">03 &mdash; INTERACTIVITY</span>
+            <h3>JavaScript</h3>
+            <p>
+              Learning core programming fundamentals, variables, functions, and manipulating
+              the Document Object Model (DOM) to create interactive web experiences.
+            </p>
+            <ul class="skill-checklist">
+              <li>Variables (let, const) &amp; data types</li>
+              <li>DOM selection &amp; event listeners</li>
+              <li>Basic conditional logic &amp; loops</li>
+            </ul>
+            <span class="skill-pill">JavaScript ES6+</span>
+          </article>
+
+          <!-- Skill 4: React.js -->
+          <article class="skill-card reveal">
+            <span class="skill-num">04 &mdash; FRONTEND UI</span>
+            <h3>React.js</h3>
+            <p>
+              Exploring component-based frontend architecture with React, building reusable UI
+              elements, managing component state, and rendering dynamic interfaces.
+            </p>
+            <ul class="skill-checklist">
+              <li>Functional components &amp; JSX</li>
+              <li>Props &amp; component reusability</li>
+              <li>State management with useState</li>
+            </ul>
+            <span class="skill-pill">Current Learning</span>
+          </article>
+
+          <!-- Skill 5: Node, Express & MongoDB -->
+          <article class="skill-card reveal">
+            <span class="skill-num">05 &mdash; BACKEND &amp; DATABASE</span>
+            <h3>Node, Express &amp; MongoDB</h3>
+            <p>
+              Actively learning backend fundamentals: setting up Node.js server environments,
+              building RESTful routing with Express.js, and storing data in MongoDB.
+            </p>
+            <ul class="skill-checklist">
+              <li>Node.js runtime &amp; NPM packages</li>
+              <li>Express.js server &amp; REST APIs</li>
+              <li>MongoDB &amp; Mongoose database</li>
+            </ul>
+            <span class="skill-pill">Current Learning</span>
+          </article>
+
+          <!-- Skill 6: Developer Tools -->
+          <article class="skill-card reveal">
+            <span class="skill-num">06 &mdash; WORKFLOW</span>
+            <h3>Developer Tools</h3>
+            <p>
+              Setting up an efficient development environment using VS Code, essential extensions,
+              terminal/CLI basic commands, and Chrome DevTools for inspection.
+            </p>
+            <ul class="skill-checklist">
+              <li>VS Code &amp; Emmet shortcuts</li>
+              <li>Terminal / CLI navigation</li>
+              <li>Browser DevTools debugging</li>
+            </ul>
+            <span class="skill-pill">VS Code &amp; CLI</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. FEATURED PROJECTS SECTION
+         ========================================================= -->
+    <section class="section projects" id="projects">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <span class="small-label">03 / MY WORK</span>
+            <h2>Featured projects.</h2>
+          </div>
+          <p class="section-lead">
+            A curated showcase of my learning exercises and real code implementations created as part of my web
+            development journey.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-image first">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+                alt="Personal profile website design on a computer" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div>
+                <h3>Personal Profile Website</h3>
+                <p>
+                  A responsive one-page portfolio introducing background, skills, and goals with semantic HTML5 and CSS Flexbox layout.
+                </p>
+              </div>
+              <div class="project-footer">
+                <div class="chips">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Flexbox</span>
+                  <span>Responsive</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-image second">
+              <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&amp;fit=crop&amp;w=1100&amp;q=85"
+                alt="People collaborating and learning web development" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div>
+                <h3>Responsive Card Components</h3>
+                <p>
+                  Reusable UI card designs mastering CSS box models, flexible content wrapping, hover elevation, and responsive styling.
+                </p>
+              </div>
+              <div class="project-footer">
+                <div class="chips">
+                  <span>CSS3</span>
+                  <span>Box Model</span>
+                  <span>Flex Wrap</span>
+                  <span>UI Cards</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+            <div class="project-image third">
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                alt="Laptop with web code and clean workspace" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div>
+                <h3>Web Learning Journey Tracker</h3>
+                <p>
+                  A structured visual overview of weekly milestones tracking progress from HTML/CSS to JavaScript and MERN stack.
+                </p>
+              </div>
+              <div class="project-footer">
+                <div class="chips">
+                  <span>HTML5</span>
+                  <span>CSS Timeline</span>
+                  <span>Progress UI</span>
+                  <span>Frontend</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Interactive Practice Project -->
+          <article class="project-card reveal">
+            <div class="project-image fourth">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                alt="Code editor showing modern JavaScript and HTML" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div>
+                <h3>Interactive Student Form &amp; Validation</h3>
+                <p>
+                  An accessible student web form built to practice user input validation, field styling, and clean flexbox alignment.
+                </p>
+              </div>
+              <div class="project-footer">
+                <div class="chips">
+                  <span>HTML5 Forms</span>
+                  <span>Validation</span>
+                  <span>Flexbox</span>
+                  <span>UX Basics</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. LEARNING JOURNEY / TIMELINE
+         ========================================================= -->
+    <section class="section" id="journey">
+      <div class="shell timeline-layout">
+        <!-- Timeline Intro -->
+        <div class="timeline-intro reveal">
+          <span class="small-label">04 / MY JOURNEY</span>
+          <h2>Small steps.<br>Big dreams.</h2>
+          <p>
+            I believe that mastery comes from thoroughly understanding the fundamentals first,
+            then progressively building more interactive, useful, and complex applications.
+          </p>
+          <div class="journey-card">
+            <h4>Current Learning: MERN Stack</h4>
+            <p>Exploring React.js, Node.js, Express.js, and MongoDB while mastering frontend fundamentals.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Steps -->
+        <div class="timeline">
+          <!-- Step 1 -->
+          <article class="step reveal">
+            <small>STEP 01 &middot; FOUNDATION</small>
+            <h3>Build a Strong Foundation</h3>
+            <p>
+              Mastered semantic HTML tags, proper head metadata, clean indentation,
+              accessible image alt text, and comfortable terminal commands in VS Code.
+            </p>
+          </article>
+
+          <!-- Step 2 -->
+          <article class="step reveal">
+            <small>STEP 02 &middot; STYLING &amp; LAYOUT</small>
+            <h3>Design with Confidence</h3>
+            <p>
+              Understanding the CSS Box Model (margin, padding, border), building fluid Flexbox
+              layouts, handling media queries for mobile devices, and applying subtle hover micro-interactions.
+            </p>
+          </article>
+
+          <!-- Step 3 -->
+          <article class="step reveal">
+            <small>STEP 03 &middot; INTERACTIVITY</small>
+            <h3>Bring Pages to Life</h3>
+            <p>
+              Deepening knowledge of JavaScript, DOM manipulation, handling click events,
+              form validations, and building dynamic UI components.
+            </p>
+          </article>
+
+          <!-- Step 4 -->
+          <article class="step reveal">
+            <small>STEP 04 &middot; VERSION CONTROL</small>
+            <h3>Git &amp; Open Source Workflow</h3>
+            <p>
+              Learning version control with Git, tracking commits, pushing repositories to GitHub,
+              and deploying live sites using modern hosting platforms.
+            </p>
+          </article>
+
+          <!-- The Final Goal -->
+          <article class="step reveal">
+            <small>THE GOAL &middot; FULL-STACK</small>
+            <h3>Become a Full-Stack MERN Developer</h3>
+            <p>
+              Combining MongoDB, Express.js, React, and Node.js to build end-to-end,
+              impactful, and secure web applications that solve real-world problems.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. BEYOND THE SCREEN / ACADEMICS & INTERESTS
+         ========================================================= -->
+    <section class="section extra" id="more">
+      <div class="shell">
+        <div class="section-top reveal">
+          <div>
+            <span class="small-label">05 / BEYOND THE SCREEN</span>
+            <h2>A bit more about me.</h2>
+          </div>
+          <p class="section-lead">
+            Education, personal interests, and values that guide my learning every day.
+          </p>
+        </div>
+
+        <div class="columns">
+          <!-- Card 1: Education -->
+          <article class="info-card reveal">
+            <h3>Education</h3>
+            <p>
+              Currently pursuing <strong>Bachelor of Computer Applications (BCA)</strong> at
+              <strong>Sarvajanik College of Commerce and Computer Applications</strong>.
+            </p>
+            <p>
+              <b>University:</b> Sarvajanik University, Surat<br>
+              <b>Duration:</b> 2023 &ndash; 2026<br>
+              <b>Key Coursework:</b> Web Technologies, C Programming, Computer Fundamentals &amp; Problem Solving.
+            </p>
+          </article>
+
+          <!-- Card 2: Hobbies & Interests -->
+          <article class="info-card reveal">
+            <h3>Hobbies &amp; Interests</h3>
+            <ul>
+              <li>Exploring modern web design trends and sleek UI components</li>
+              <li>Reading tech articles and frontend learning documentation</li>
+              <li>Listening to instrumental music while writing code</li>
+              <li>Watching educational tutorials on YouTube and learning new tools</li>
+            </ul>
+          </article>
+
+          <!-- Card 3: Personal Strengths -->
+          <article class="info-card reveal">
+            <h3>Personal Strengths</h3>
+            <ul>
+              <li><strong>Curiosity:</strong> Eager to learn how things work behind the scenes.</li>
+              <li><strong>Patience:</strong> Ready to debug and solve layout issues step by step.</li>
+              <li><strong>Consistency:</strong> Dedicated daily practice with hands-on coding.</li>
+              <li><strong>Clean Organization:</strong> Writing neat, well-commented, and readable code.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. CONTACT & LET'S CONNECT SECTION
+         ========================================================= -->
+    <section class="contact" id="contact">
+      <div class="shell reveal">
+        <span class="small-label">06 / SAY HELLO</span>
+        <h2>Let's create<br><span>something meaningful.</span></h2>
+
+        <p>
+          I am always open to learning, receiving feedback on my projects, and connecting
+          with fellow students and developers. Feel free to drop a friendly message!
+        </p>
+
+        <!-- Contact Links and Action Buttons -->
+        <div class="contact-actions">
+          <a class="button dark"
+            href="mailto:jiya.panchal@example.com?subject=Hello%20Jiya%20-%20Web%20Developer%20Portfolio">
+            Send an Email &nbsp;&nearrow;
+          </a>
+          <a class="button light" href="#home">Back to Top &uarr;</a>
+        </div>
+
+        <!-- Social / Connect Links -->
+        <div class="contact-links-row">
+          <span class="contact-pill">Email: jiya.panchal@example.com</span>
+          <span class="contact-pill">Surat, Gujarat, India</span>
+          <span class="contact-pill">Open for Learning &amp; Internships</span>
+        </div>
+
+        <small>
+          Note: This portfolio is created with semantic HTML5, CSS3, and Flexbox as part of MERN Stack Week 1.
+        </small>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       10. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <strong>Jiya Panchal<span style="color: #c4b5fd;">.</span></strong>
+      <span>Designed &amp; Hand-coded with Semantic HTML5, CSS3, Flexbox &amp; Curiosity.</span>
+      <a href="#home">Back to Top &uarr;</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
